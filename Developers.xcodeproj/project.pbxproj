@@ -11,7 +11,6 @@
 		011D000A267DC12D00CD751F /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011D0009267DC12D00CD751F /* PlaySound.swift */; };
 		011D000D267DC1E900CD751F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011D000C267DC1E900CD751F /* CardView.swift */; };
 		011D0011267DC20C00CD751F /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011D0010267DC20C00CD751F /* CardModel.swift */; };
-		011D0014267DC23200CD751F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011D0013267DC23200CD751F /* SceneDelegate.swift */; };
 		011D001D267DC46800CD751F /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011D001C267DC46800CD751F /* CardData.swift */; };
 		011D0021267DC6B900CD751F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011D0023267DC6B900CD751F /* LaunchScreen.storyboard */; };
 		011D002A267DC7B600CD751F /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011D0029267DC7B600CD751F /* Stickers.xcassets */; };
@@ -51,7 +50,6 @@
 		011D0009267DC12D00CD751F /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		011D000C267DC1E900CD751F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		011D0010267DC20C00CD751F /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
-		011D0013267DC23200CD751F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		011D001C267DC46800CD751F /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		011D0022267DC6B900CD751F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011D0027267DC7B500CD751F /* stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +110,6 @@
 				011D0010267DC20C00CD751F /* CardModel.swift */,
 				011D000C267DC1E900CD751F /* CardView.swift */,
 				01A5E41D267C5CA800A8AC19 /* ContentView.swift */,
-				011D0013267DC23200CD751F /* SceneDelegate.swift */,
 				011D0023267DC6B900CD751F /* LaunchScreen.storyboard */,
 				011D0009267DC12D00CD751F /* PlaySound.swift */,
 				01A5E41F267C5CAB00A8AC19 /* Assets.xcassets */,
@@ -236,7 +233,6 @@
 				011D001D267DC46800CD751F /* CardData.swift in Sources */,
 				011D0011267DC20C00CD751F /* CardModel.swift in Sources */,
 				011D003C267DD00D00CD751F /* DevelopersApp.swift in Sources */,
-				011D0014267DC23200CD751F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

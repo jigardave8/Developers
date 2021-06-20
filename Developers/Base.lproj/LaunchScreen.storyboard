@@ -11,7 +11,6 @@
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -21,25 +20,41 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iWx-4M-h4I">
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iWx-4M-h4I">
                                 <rect key="frame" x="125" y="373" width="165.5" height="151"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-swift-outlined" translatesAutoresizingMaskIntoConstraints="NO" id="aqh-Bs-K11">
-                                        <rect key="frame" x="33" y="0.0" width="100" height="100"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-swift-outlined" translatesAutoresizingMaskIntoConstraints="NO" id="aqh-Bs-K11">
+                                        <rect key="frame" x="33" y="0.0" width="99.5" height="100"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogG-Ed-cTc">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogG-Ed-cTc">
                                         <rect key="frame" x="0.0" y="108" width="165.5" height="43"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="36"/>
                                         <color key="textColor" systemColor="systemBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ogG-Ed-cTc" secondAttribute="trailing" id="03H-ZJ-Jms"/>
+                                    <constraint firstAttribute="trailing" secondItem="aqh-Bs-K11" secondAttribute="trailing" constant="32.5" id="8B2-W7-8Dk"/>
+                                    <constraint firstItem="ogG-Ed-cTc" firstAttribute="top" secondItem="aqh-Bs-K11" secondAttribute="bottom" constant="8" symbolic="YES" id="CEn-f5-ILq"/>
+                                    <constraint firstAttribute="bottom" secondItem="ogG-Ed-cTc" secondAttribute="bottom" id="V9X-OA-oc9"/>
+                                    <constraint firstItem="ogG-Ed-cTc" firstAttribute="leading" secondItem="iWx-4M-h4I" secondAttribute="leading" id="X0k-NB-27H"/>
+                                    <constraint firstItem="aqh-Bs-K11" firstAttribute="leading" secondItem="iWx-4M-h4I" secondAttribute="leading" constant="33" id="YBx-Nt-6fs"/>
+                                    <constraint firstItem="aqh-Bs-K11" firstAttribute="top" secondItem="iWx-4M-h4I" secondAttribute="top" id="zin-Wb-X4T"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iWx-4M-h4I" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="125" id="EYt-zG-cGT"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="iWx-4M-h4I" secondAttribute="trailing" constant="123.5" id="YA9-ov-oj9"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="iWx-4M-h4I" secondAttribute="bottom" constant="338" id="hHR-Jn-IIn"/>
+                            <constraint firstItem="iWx-4M-h4I" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="329" id="ky3-ln-ynT"/>
+                        </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
