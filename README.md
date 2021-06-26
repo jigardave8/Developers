@@ -8,12 +8,12 @@
 # <h1>Developers</h1> 
 <h2>An example App to show how CardView works with SwiftUI. </h2>
 
-![Optional Text]()
+![Optional Text](https://user-images.githubusercontent.com/13096575/123516971-72041d00-d6bc-11eb-8d17-fca9ed0ba44a.png)
 
 
 
 <p align="center"> </P>
-   <img src=”()”>
+   <img src=”(https://user-images.githubusercontent.com/13096575/123516971-72041d00-d6bc-11eb-8d17-fca9ed0ba44a.png)”>
 Developers:
 
 Simple CardView of the App used as an example to build other complex apps.
@@ -23,14 +23,14 @@ Moreover, the purpose of the app is to show case how one can add stickers extens
 
 
    <p align="center"> 
-<img src="g" width="250" height="500">______________________ <img src="" width="250" height="500"></P>
+<img src="https://user-images.githubusercontent.com/13096575/123516845-d8d50680-d6bb-11eb-9904-8d7219547d20.png" width="250" height="500">______________________ <img src="https://user-images.githubusercontent.com/13096575/123516900-1d60a200-d6bc-11eb-80e0-3c310af86859.gif" width="250" height="500"></P>
 
 
 
 <h2>Features: </h2>
 
 1. Great logo design built with SwiftUI
-2. play sound on buttons
+2. Haptic Feedbacks,light/dark background , play sound on buttons
 3. Card View app with card data fetched from dedicated file.
 4. Send stickers to friends in other messaging apps using app's inbuilt stickers' extension pack
 
